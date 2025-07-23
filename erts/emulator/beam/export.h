@@ -37,10 +37,6 @@
 #define OP_PAD
 #endif
 
-#define EXPORT_INITIAL_SIZE   4000
-#define EXPORT_MAX_SIZE        (2048*1024)
-#define EXPORT_LIMIT          (512*1024)
-
 typedef struct export_
 {
     /* !! WARNING !!
